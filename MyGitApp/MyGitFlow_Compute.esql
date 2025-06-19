@@ -3,7 +3,7 @@
 CREATE COMPUTE MODULE MyGitFlow_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
-		--hello world
+		--hello world1
 		CALL CopyMessageHeaders();
 		CALL CopyEntireMessage();
 		RETURN TRUE;
