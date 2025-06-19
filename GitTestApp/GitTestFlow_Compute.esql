@@ -1,9 +1,7 @@
-
-
 CREATE COMPUTE MODULE GitTestFlow_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
-		//Test
+		
 		CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
