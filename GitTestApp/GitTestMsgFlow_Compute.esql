@@ -3,7 +3,7 @@
 CREATE COMPUTE MODULE GitTestMsgFlow_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
-		-- CALL CopyMessageHeaders(); uwiooasnasfasdgsdgj
+		-- CALL CopyMessageHeaders(); uwiooasnasfasdgsdgjdfh
 		CALL CopyEntireMessage();
 		RETURN TRUE;
 	END;
