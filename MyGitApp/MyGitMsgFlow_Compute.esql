@@ -3,6 +3,7 @@
 CREATE COMPUTE MODULE MyGitMsgFlow_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
+		--Test App new
 		CALL CopyMessageHeaders();
 		CALL CopyEntireMessage();
 		RETURN TRUE;
